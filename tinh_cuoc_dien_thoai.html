@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let a = +prompt('Số phút bạn đã gọi');
+  let x = 600;
+  let y = 400;
+  let z = 200;
+  let b = '';
+
+  if (a <= 50) {
+    b = a*600;
+    alert ('Số tiền bạn phải trả' + b + 'VNĐ');
+  }
+  if (a > 50 && a < 150) {
+    b = a*400;
+    alert ('Số tiền bạn phải trả' + b + 'VNĐ');
+  }
+  if (a>200) {
+    b = a*200;
+    alert ('Số tiền bạn phải trả' + b + 'VNĐ');
+  }
+</script>
+</body>
+</html>

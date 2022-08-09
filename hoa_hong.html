@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let a = +prompt('Doanh số bán hàng');
+  let b = ""
+  if (a < 3000000) {
+      b = a*0.01
+      alert ('hoa hồng của bạn là' + b + 'VNĐ');
+  }
+  if (a >= 3000000 && a < 6000000) {
+      b = a*0.05
+      alert ('hoa hồng bạn nhận được là' + b + 'VNĐ');
+  }
+  if (a >= 6000000 ) {
+      b = a*0.1
+      alert ('hoa hồng bạn nhận được là' + b + 'VNĐ');
+  }
+
+</script>
+</body>
+</html>

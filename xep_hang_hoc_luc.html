@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+  let a = +prompt('Diểm kiểm tra');
+  let b = +prompt('Điểm thi giữa kì');
+  let c = +prompt('Điểm thi cuối kì');
+  let tb = ((a + b + c*2) / 4);
+
+  if (tb < 5) {
+    alert ('kém');
+  }
+  if (tb >= 5 && tb < 8) {
+    alert ('khá');
+  }
+  if (tb >= 8) {
+    alert ('Giỏi');
+  }
+  else {
+    alert('lỗi');
+  }
+
+
+
+</script>
+</body>
+</html>
